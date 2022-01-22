@@ -1,0 +1,358 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body{
+    font-family: Spartan;
+    font-weight: 100;
+  }
+.top-content{
+display: flex;
+}
+   .top-pattern{
+    position: relative;
+    
+  }
+
+  .first-content{
+    flex: 1;
+  }
+  
+  .shape{
+    height: 50;
+   /* width: 109%; */
+   margin-left: -20em;
+   /* margin-top: -19em; */
+  }
+  /* Bottom left text */
+  
+  .h1 {
+    position: absolute;
+    bottom: 1.4em;
+    left: -5em;
+    right: 10px;
+    font-family: spartan;
+    color: hsl(300, 43%, 22%);
+    font-size: 29px;
+    text-align: left;
+    font-weight: 900;
+      }
+
+  .services{
+    text-align: left;
+    bottom: 30px;
+    margin-top: -3em;
+    font-family: spartan;
+    margin-right: 10px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 600;
+    margin-left: -10.7em;
+    font-size: 18.5px;
+  }
+ 
+.ratings{
+  flex: 1;
+  margin-top: 10em;
+ 
+}
+  .reviews1{
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -2.5em;
+    margin-right: -2.5em;
+    margin-bottom: 20px;
+    height: 3.2em;
+    width: 70%;
+    display: flex;
+  }
+  .reviews2{
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: -2.5em;
+    margin-bottom: 20px;
+    height: 3.2em;
+    width: 70%;
+    display: flex;
+  }
+  .reviews3{
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 4.2em;
+    margin-right: -2.5em;
+    margin-bottom: 20px;
+    height: 3.2em;
+    width: 70%;
+    display: flex;
+  }
+
+  .reviews1 .row .col{
+    margin-left: 1.2em;
+  }
+  .reviews2 .row .col{
+    margin-left: 1.2em;
+  }
+  .reviews3 .row .col{
+    margin-left: 1.2em;
+  }
+
+.icons{
+  height: 15px;
+  margin: 3px;
+}
+
+.text-rate{
+  color: hsl(300, 43%, 22%);
+  font-family: spartan;
+  font-weight: 900;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.text-rate .col{
+  margin-left: 1.3em;
+
+}
+.container .highlight{
+  margin-top: 50px;
+}
+.col .card{
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+}
+ 
+.highlight .card{
+  height: 25vh;
+}
+
+.highlight .second-card{
+  margin-top: 2.5em;
+  margin-left: -10em;
+  margin-right: -10em;
+}
+.highlight .third-card{
+  margin-top: 4em;
+  margin-left: -em;
+}
+.card .person{
+  margin-top: 15px;
+  
+}
+.person .col img{
+ height: 40px;
+ width: 39px;
+ margin-left: 10px;
+}
+
+.person .col .card-title{
+  font-size: 14px;
+  font-family: spartan;
+  color: hsl(0, 0%, 100%);
+  margin-left: -7em;
+  margin-top: 0.3em;
+}
+.person .col .card-subtitle{
+  font-size: 13px;
+  font-family: spartan;
+  color: hsla(333, 80%, 67%, 0.705);
+  margin-left: -7.3em;
+  margin-top: 0.3em;
+}
+
+.highlight .card-body{
+  color: hsl(0, 0%, 100%);
+  font-family: spartan;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 1.5em;
+} 
+
+body .bg-pattern{
+  background-image: url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height:  88vh;
+  position: relative;
+  margin-top: -40em;
+  background-size: 95%;
+  margin-left: -3em;
+}
+
+/* media query */
+@media screen and (max-width: 600px) {
+  .top-pattern{
+    position: relative;
+    
+  }
+
+  .top-content{
+    display: block ;
+  }
+  
+  .shape{
+    height: 500;
+   width: 109%;
+   margin-left: -1em;
+  }
+  /* Bottom left text */
+  .top-content .h1 {
+    position: absolute;
+    bottom: 39px;
+    left: -8px;
+    right: 10px;
+    font-family: spartan;
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .services{
+    text-align: center;
+    bottom: 30px;
+    margin-top: -1.5em;
+    font-family: spartan;
+    margin-right: 4.5em;
+    color: hsl(303, 10%, 53%);
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 7px;
+  }
+ 
+  .ratings{
+    margin-top: 3em;
+  }
+
+ 
+  .reviews1{
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -1.6em;
+    margin-right: -2.5em;
+ margin-bottom: 20px;
+ width: 24em;
+ display: block;
+ height: 4.4em;
+  }
+  .reviews2{
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -1.6em;
+    margin-right: -2.5em;
+    margin-bottom: 20px;
+    width: 19em;
+    display: block;
+    height: 4.4em;
+    width: 24em;
+  }
+  .reviews3{
+    width: 100%;
+    border: 0.5px solid hsl(300, 24%, 96%);
+    background: hsl(300, 24%, 96%);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -1.6em;
+    margin-right: -2.5em;
+ margin-bottom: 20px;
+ display: block;
+ width: 24em;
+ height: 4.4em;
+  }
+
+.icons{
+  height: 16px;
+  margin: 3px;
+  
+}
+
+.text-rate{
+  color: hsl(300, 43%, 22%);
+  font-family: spartan;
+  font-weight: 900;
+  font-size: 15px;
+  padding-top: 10px;
+
+}
+
+.container .highlight{
+  margin-top: 50px;
+}
+.col .card{
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  display: block;
+  
+}
+
+.highlight .card{
+  display: block;
+  height: 25vh;
+  margin-left: 2em;
+}
+.highlight .second-card .card{
+  display: block;
+ margin-top: 18.5em;
+ margin-left: -13.5em;
+ margin-bottom: -3em;
+}
+.card .person{
+  margin-top: 15px;
+  
+}
+.person .col img{
+ height: 48px;
+ width: 47px;
+ margin-left: 10px;
+}
+
+.person .col .card-title{
+  font-size: 16px;
+  font-family: spartan;
+  color: hsl(0, 0%, 100%);
+  margin-left: -6em;
+  margin-top: 0.3em;
+}
+.person .col .card-subtitle{
+  font-size: 13.4px;
+  font-family: spartan;
+  color: hsla(333, 80%, 67%, 0.705);
+  margin-left: -7.3em;
+  margin-top: 0.3em;
+}
+
+.highlight .card-body{
+  color: hsl(0, 0%, 100%);
+  font-family: spartan;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 1.5em;
+}
+
+
+body .bg-pattern{
+  background-image: url(./images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: -32em;
+  height: 52vh;
+  background-size: cover;
+  margin-left: 0.1em;
+
+}
+
+body {
+
+}
+}
